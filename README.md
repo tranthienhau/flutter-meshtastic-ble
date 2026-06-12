@@ -4,6 +4,16 @@ Flutter POC that connects to a Meshtastic LoRa device over BLE and broadcasts/re
 
 Designed as a Flutter alternative to the Nearby Connections / WiFi Aware approach used in many short-range Android apps when the device pair needs to talk across a venue instead of across a room.
 
+## Demo
+
+Real iOS-Simulator captures of the running app (see [FLOW.md](FLOW.md) for how they were generated).
+
+| Node scan | Mesh log | Broadcast |
+| --- | --- | --- |
+| ![Node scan](screenshots/01-node-scan.png) | ![Mesh log](screenshots/02-mesh-log.png) | ![Broadcast](screenshots/03-broadcast.png) |
+
+![Demo](screenshots/demo.gif)
+
 ## Features
 
 - BLE scan filtered by the official Meshtastic GATT service `6ba1b218-15a8-461f-9fa8-5dcae273eafd`
